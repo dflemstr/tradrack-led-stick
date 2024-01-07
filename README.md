@@ -3,6 +3,8 @@
 This is a mod for Annex Engineering's [TradRack][1] that enables the addition
 of LED light indicators for each filament gate/lane.
 
+![Rendered image of the v1 PCB](pcb/images/v1.png)
+
 Since the lanes are spaced at a 17mm pitch, there are no regular LED strips
 that would fit a Tradrack with a large number of lanes (I myself use ~35 lanes),
 hence the need for this project.
