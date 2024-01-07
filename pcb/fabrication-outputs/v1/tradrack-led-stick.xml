@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/dflemstr/PCBs/tradrack-led-stick/tradrack-led-stick.kicad_sch</source>
+    <date>fre  5 jan 2024 17:00:13</date>
+    <tool>Eeschema 7.0.10</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Tradrack LED Stick</title>
+        <company>David Flemström</company>
+        <rev>1</rev>
+        <date>2024-01-05</date>
+        <source>tradrack-led-stick.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>SK6812</value>
+      <footprint>LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://www.digikey.com/htmldatasheets/production/1857559/0/0/1/sk6812rgbw-specification.html</datasheet>
+      <fields>
+        <field name="LCSC">  C5380880</field>
+        <field name="MPN">SKC6812RGBW-NW-B</field>
+      </fields>
+      <libsource lib="LED" part="SK6812" description="RGB LED with integrated controller"/>
+      <property name="MPN" value="SKC6812RGBW-NW-B"/>
+      <property name="LCSC" value="  C5380880"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tradrack-led-stick.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b85af1e-5070-4ef1-8249-60f28d9afae8</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>SK6812</value>
+      <footprint>LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://www.digikey.com/htmldatasheets/production/1857559/0/0/1/sk6812rgbw-specification.html</datasheet>
+      <fields>
+        <field name="LCSC">  C5380880</field>
+        <field name="MPN">SKC6812RGBW-NW-B</field>
+      </fields>
+      <libsource lib="LED" part="SK6812" description="RGB LED with integrated controller"/>
+      <property name="MPN" value="SKC6812RGBW-NW-B"/>
+      <property name="LCSC" value="  C5380880"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tradrack-led-stick.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98ee137d-2363-4e9e-bd95-d7111f7b640f</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>SK6812</value>
+      <footprint>LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://www.digikey.com/htmldatasheets/production/1857559/0/0/1/sk6812rgbw-specification.html</datasheet>
+      <fields>
+        <field name="LCSC">  C5380880</field>
+        <field name="MPN">SKC6812RGBW-NW-B</field>
+      </fields>
+      <libsource lib="LED" part="SK6812" description="RGB LED with integrated controller"/>
+      <property name="MPN" value="SKC6812RGBW-NW-B"/>
+      <property name="LCSC" value="  C5380880"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tradrack-led-stick.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2518263c-5614-45da-a81b-021c124e3d40</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>SK6812</value>
+      <footprint>LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://www.digikey.com/htmldatasheets/production/1857559/0/0/1/sk6812rgbw-specification.html</datasheet>
+      <fields>
+        <field name="LCSC">  C5380880</field>
+        <field name="MPN">SKC6812RGBW-NW-B</field>
+      </fields>
+      <libsource lib="LED" part="SK6812" description="RGB LED with integrated controller"/>
+      <property name="MPN" value="SKC6812RGBW-NW-B"/>
+      <property name="LCSC" value="  C5380880"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tradrack-led-stick.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac1cc558-636e-4cb6-b32f-8bd2674c1053</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>SK6812</value>
+      <footprint>LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://www.digikey.com/htmldatasheets/production/1857559/0/0/1/sk6812rgbw-specification.html</datasheet>
+      <fields>
+        <field name="LCSC">  C5380880</field>
+        <field name="MPN">SKC6812RGBW-NW-B</field>
+      </fields>
+      <libsource lib="LED" part="SK6812" description="RGB LED with integrated controller"/>
+      <property name="MPN" value="SKC6812RGBW-NW-B"/>
+      <property name="LCSC" value="  C5380880"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tradrack-led-stick.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f31242cc-009d-4389-bd31-e7ddc55fa7ff</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>SK6812</value>
+      <footprint>LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://www.digikey.com/htmldatasheets/production/1857559/0/0/1/sk6812rgbw-specification.html</datasheet>
+      <fields>
+        <field name="LCSC">  C5380880</field>
+        <field name="MPN">SKC6812RGBW-NW-B</field>
+      </fields>
+      <libsource lib="LED" part="SK6812" description="RGB LED with integrated controller"/>
+      <property name="MPN" value="SKC6812RGBW-NW-B"/>
+      <property name="LCSC" value="  C5380880"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tradrack-led-stick.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf6aed69-c509-4418-809f-019d3e4af3c6</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>SK6812</value>
+      <footprint>LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://www.digikey.com/htmldatasheets/production/1857559/0/0/1/sk6812rgbw-specification.html</datasheet>
+      <fields>
+        <field name="LCSC">  C5380880</field>
+        <field name="MPN">SKC6812RGBW-NW-B</field>
+      </fields>
+      <libsource lib="LED" part="SK6812" description="RGB LED with integrated controller"/>
+      <property name="MPN" value="SKC6812RGBW-NW-B"/>
+      <property name="LCSC" value="  C5380880"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tradrack-led-stick.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0547bebd-1b54-470f-815b-0562aef56ab5</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>SK6812</value>
+      <footprint>LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://www.digikey.com/htmldatasheets/production/1857559/0/0/1/sk6812rgbw-specification.html</datasheet>
+      <fields>
+        <field name="LCSC">  C5380880</field>
+        <field name="MPN">SKC6812RGBW-NW-B</field>
+      </fields>
+      <libsource lib="LED" part="SK6812" description="RGB LED with integrated controller"/>
+      <property name="MPN" value="SKC6812RGBW-NW-B"/>
+      <property name="LCSC" value="  C5380880"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tradrack-led-stick.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ff2dbea-3117-4962-962e-7f33491e511e</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>SK6812</value>
+      <footprint>LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://www.digikey.com/htmldatasheets/production/1857559/0/0/1/sk6812rgbw-specification.html</datasheet>
+      <fields>
+        <field name="LCSC">  C5380880</field>
+        <field name="MPN">SKC6812RGBW-NW-B</field>
+      </fields>
+      <libsource lib="LED" part="SK6812" description="RGB LED with integrated controller"/>
+      <property name="MPN" value="SKC6812RGBW-NW-B"/>
+      <property name="LCSC" value="  C5380880"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tradrack-led-stick.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f36016c-162c-4b17-86e9-5e291f67e86f</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>SK6812</value>
+      <footprint>LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://www.digikey.com/htmldatasheets/production/1857559/0/0/1/sk6812rgbw-specification.html</datasheet>
+      <fields>
+        <field name="LCSC">  C5380880</field>
+        <field name="MPN">SKC6812RGBW-NW-B</field>
+      </fields>
+      <libsource lib="LED" part="SK6812" description="RGB LED with integrated controller"/>
+      <property name="MPN" value="SKC6812RGBW-NW-B"/>
+      <property name="LCSC" value="  C5380880"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tradrack-led-stick.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ade47f19-e8d4-4b22-81e8-bca49aa5f9fb</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="MPN" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tradrack-led-stick.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30ba166e-a3ff-4767-862f-e59dc7c8001c</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="MPN" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tradrack-led-stick.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e396edb-76e8-4d53-ada7-3257aaed2e88</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Out Conn</value>
+      <footprint>Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tradrack-led-stick.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89ae05f7-755b-4312-8262-972c5c2781de</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>In Conn</value>
+      <footprint>Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tradrack-led-stick.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6f0d5dc-cf5a-48ec-a9df-9a77385a91df</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="SK6812">
+      <description>RGB LED with integrated controller</description>
+      <docs>https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf</docs>
+      <footprints>
+        <fp>LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SK6812</field>
+        <field name="Footprint">LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm</field>
+        <field name="Datasheet">https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="power_in"/>
+        <pin num="2" name="DIN" type="input"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="DOUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="LED">
+      <uri>/usr/share/kicad/symbols//LED.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="D1" pin="3" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D10" pin="3" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D2" pin="3" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D3" pin="3" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D4" pin="3" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D5" pin="3" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D6" pin="3" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D7" pin="3" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D8" pin="3" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D9" pin="3" pinfunction="VDD" pintype="power_in"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="2" name="/D1OUT">
+      <node ref="D1" pin="4" pinfunction="DOUT" pintype="output"/>
+      <node ref="D2" pin="2" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="3" name="/D2OUT">
+      <node ref="D2" pin="4" pinfunction="DOUT" pintype="output"/>
+      <node ref="D3" pin="2" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="4" name="/D3OUT">
+      <node ref="D3" pin="4" pinfunction="DOUT" pintype="output"/>
+      <node ref="D4" pin="2" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="5" name="/D4OUT">
+      <node ref="D4" pin="4" pinfunction="DOUT" pintype="output"/>
+      <node ref="D5" pin="2" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="6" name="/D5OUT">
+      <node ref="D5" pin="4" pinfunction="DOUT" pintype="output"/>
+      <node ref="D6" pin="2" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="7" name="/D6OUT">
+      <node ref="D6" pin="4" pinfunction="DOUT" pintype="output"/>
+      <node ref="D7" pin="2" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="8" name="/D7OUT">
+      <node ref="D7" pin="4" pinfunction="DOUT" pintype="output"/>
+      <node ref="D8" pin="2" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="9" name="/D8OUT">
+      <node ref="D8" pin="4" pinfunction="DOUT" pintype="output"/>
+      <node ref="D9" pin="2" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="10" name="/D9OUT">
+      <node ref="D10" pin="2" pinfunction="DIN" pintype="input"/>
+      <node ref="D9" pin="4" pinfunction="DOUT" pintype="output"/>
+    </net>
+    <net code="11" name="DIN">
+      <node ref="D1" pin="2" pinfunction="DIN" pintype="input"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="12" name="DOUT">
+      <node ref="D10" pin="4" pinfunction="DOUT" pintype="output"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="13" name="GND">
+      <node ref="D1" pin="1" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D10" pin="1" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D2" pin="1" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D3" pin="1" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D4" pin="1" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D5" pin="1" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D6" pin="1" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D7" pin="1" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D8" pin="1" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D9" pin="1" pinfunction="VSS" pintype="power_in"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
