@@ -34,6 +34,20 @@ or a JST-XH straight-through connector.  The PCBs are designed with a 1mm
 gap between them to allow for some adjustment when aligning multiple PCBs,
 in case the lanes or the PCBs themselves have some imperfections.
 
+**Note**: The LED stick is designed to be adaptable to the [Voron Daylight Disco][4]
+pinout.  However, due to space constraints (because the stick needs to maintain the
+17mm spacing), there isn't enough room on the board to solder a "normal" or "flipped"
+JST-XH connector.  Instead, take a vertical JST-XH connector, and bend the legs 90 degrees
+towards the side of the connector housing that has 2 slots.  Then, solder the connector from
+above onto the LED stick, letting it hang out over the side of the board.  If done
+correctly, the board will be pin-compatible with the Voron Daylight Disco board.
+
+Here are some photos of a finished soldering job for reference:
+
+![20240115_202112](https://github.com/dflemstr/tradrack-led-stick/assets/56029/b5a500d6-5f75-4bcd-a75d-aa4ad1fd122f)
+![20240115_202149](https://github.com/dflemstr/tradrack-led-stick/assets/56029/4bc44ddd-7924-4103-8111-fc83621e38a0)
+
+
 The PCBs are also designed to be easy to cut at an arbitrary point without
 causing a short.  Cutting the PCB between any two LEDs should be easily done
 with a hack saw/rotary cutter/...  Just make sure to use appropriate protective
@@ -42,3 +56,4 @@ equipment and maybe have a spare stick in case something goes wrong.
 [1]: https://github.com/Annex-Engineering/TradRack
 [2]: https://github.com/moggieuk/Happy-Hare/blob/main/doc/leds.md
 [3]: https://jlcpcb.com/
+[4]: https://github.com/VoronDesign/Voron-Hardware/tree/master/Daylight/Disco_on_a_stick
