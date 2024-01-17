@@ -47,13 +47,37 @@ Here are some photos of a finished soldering job for reference:
 ![20240115_202112](https://github.com/dflemstr/tradrack-led-stick/assets/56029/b5a500d6-5f75-4bcd-a75d-aa4ad1fd122f)
 ![20240115_202149](https://github.com/dflemstr/tradrack-led-stick/assets/56029/4bc44ddd-7924-4103-8111-fc83621e38a0)
 
-
 The PCBs are also designed to be easy to cut at an arbitrary point without
 causing a short.  Cutting the PCB between any two LEDs should be easily done
 with a hack saw/rotary cutter/...  Just make sure to use appropriate protective
 equipment and maybe have a spare stick in case something goes wrong.
 
+### LED profile
+
+I am using a LED profile to mount the LED PCBs into.  The size I'm using is
+fairly common in hardware stores, with a 17mm outside width, 6.5mm thick
+(without the diffuser), and has a 12mm inner channel.
+
+To mount the PCBs this way, I used thermal double sided tape (to aid with
+heat dissipation -- although it shouldn't be strictly needed) and then
+the 3D printed mounting bracket in [led-profile-holder](./led-profile-holder).
+
+This assembly can then be mounted at the front of the Trad Rack, in between the 2020
+and the cable chain.
+
+It is also necessary to use low-profile M5 bolts for any parts that are mounted to
+the front of the Trad Rack extrusion (the `idler_pulley_mount` and `motor_mount_lower`)
+if the filament lane modules are mounted in such a way that the corresponding LEDs need
+to be in front of these parts. I use [OpenBuilds low profile M5 screws][5], 8mm long.
+
+There won't be any room for other front-mounted parts on the 2020 that stick out more
+than 8mm.  For example, you can use [this mount][6] for an ERCF Easy BRD to mount the
+board from the bottom of the extrusion instead of the side.
+
 [1]: https://github.com/Annex-Engineering/TradRack
 [2]: https://github.com/moggieuk/Happy-Hare/blob/main/doc/leds.md
 [3]: https://jlcpcb.com/
 [4]: https://github.com/VoronDesign/Voron-Hardware/tree/master/Daylight/Disco_on_a_stick
+[5]: https://openbuildspartstore.com/low-profile-screws-m5-10-pack-/
+[6]: https://www.printables.com/model/481199-ercf-easybrdcan-brd-mount-for-tr
+
