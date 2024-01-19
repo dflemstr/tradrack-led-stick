@@ -60,7 +60,7 @@ fairly common in hardware stores, with a 17mm outside width, 6.5mm thick
 
 To mount the PCBs this way, I used thermal double sided tape (to aid with
 heat dissipation -- although it shouldn't be strictly needed) and then
-the 3D printed mounting bracket in [led-profile-holder](./led-profile-holder).
+the 3D printed mounting bracket in [`led-profile-holder`](./led-profile-holder).
 
 This assembly can then be mounted at the front of the Trad Rack, in between the 2020
 and the cable chain.
@@ -70,8 +70,11 @@ the front of the Trad Rack extrusion (the `idler_pulley_mount` and `motor_mount_
 if the filament lane modules are mounted in such a way that the corresponding LEDs need
 to be in front of these parts. I use [OpenBuilds low profile M5 screws][5], 8mm long.
 
+For the cable chain anchor, a lowered version is needed.  I've included one in the
+[`led-profile-holder`](./led-profile-holder) directory.
+
 There won't be any room for other front-mounted parts on the 2020 that stick out more
-than 8mm.  For example, you can use [this mount][6] for an ERCF Easy BRD to mount the
+than 7mm.  For example, you can use [this mount][6] for an ERCF Easy BRD to mount the
 board from the bottom of the extrusion instead of the side.
 
 [1]: https://github.com/Annex-Engineering/TradRack
